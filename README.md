@@ -48,4 +48,38 @@ print("Is x greater than y?", x > y)
 • Errors are learning tools, not failures  
 
 🎯 Objective:
-Move beyond basic examples and build logical thinking from Day-1 itself.
+Move beyond basic examples and build logical thinking from Day-1 itself.74
+
+
+📅 Day 2 – Python Basics with Logic Practice
+
+✅ Learned Python data types (int, float, string, boolean)  
+✅ Understood variables and naming rules  
+✅ Practiced taking input from user and converting data types  
+✅ Explored operators (arithmetic, comparison, assignment)  
+
+🧪 Practice Programs:
+✔️ Checked even or odd number  
+✔️ Compared two numbers and printed the greater one  
+✔️ Calculated simple interest using user input  
+✔️ Converted Celsius to Fahrenheit  
+
+Example practice:
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+c = float(input("Enter temperature in Celsius: "))
+f = (c * 9/5) + 32
+print("Fahrenheit:", f)
+
+🧠 What I Learned:
+✔️ How conditions work using if-else  
+✔️ Importance of type conversion (int(), float())  
+✔️ Writing logic instead of memorizing code  
+✔️ Debugging small mistakes by reading errors  
+
+🎯 Goal:
+Improve logical thinking and confidence by solving simple real-world problems using Python.
